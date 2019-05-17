@@ -46,6 +46,7 @@ RUN apt-get update -qq \
 && apt-get install -qy --force-yes \
  cups \
  cups-pdf \
+ printer-driver-all \
  whois \
  hplip \
  python-cups \
