@@ -34,7 +34,7 @@ RUN usermod -u 99 nobody \
 ## && add-apt-repository ppa:ubuntu-lxc/lxd-stable \
 ## && sed -i -e "s#http://[^\s]*archive.ubuntu[^\s]* #mirror://mirrors.ubuntu.com/mirrors.txt #g" /etc/apt/sources.list
 
-RUN add-apt-repository ppa:ubuntu-lxc/lxd-stable 
+RUN add-apt-repository ppa:sneakums/lxd-stable-rebuilt
 ## <-- removing modification of sources host
 ## \
 ## && sed -i -e "s#http://[^\s]*archive.ubuntu[^\s]* #mirror://mirrors.ubuntu.com/mirrors.txt #g" /etc/apt/sources.list
